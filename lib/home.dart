@@ -31,7 +31,7 @@ class _HomeState extends State<Home> {
       }
     );
   }
-
+// 수정 테스트
   _addItem(){ // 윗줄 currentDateTime을 Timer로 띄우는 함수
     DateTime now = DateTime.now();
     currentDateTime = ('${now.year}-${now.month.toString().padLeft(2, '0')}-${now.day.toString().padLeft(2, '0')} ${_weekdayToString(now.weekday)} ${now.hour.toString().padLeft(2, '0')}:${now.minute.toString().padLeft(2, '0')}:${now.second.toString().padLeft(2, '0')}');
